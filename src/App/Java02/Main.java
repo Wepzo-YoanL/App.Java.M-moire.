@@ -7,10 +7,12 @@ public class Main {
 	//Tableau composé de plusieurs tableau 
 		//Pour se faire de paires de croché
 	String Xspeudos = "Java, Python, Html, JavaScript, Php, C++, GdScirpt";
+	// La syntaxe "split" permet de marquer un symbole comme limite
+	// Ici la virgule sera prise comme limite pour tous les names 
 	String Speudo[]	= Xspeudos.split(",");
-		//Erreur déclenché
-		// Cause Utilisation du name "Xspeudos" pour faire l'appel du nombre de Xspeudos
-			System.out.println(Xpeudos.length);
+		//Erreur résolu
+	
+			System.out.println("Voici le nombre d'éléments:" + "  " + Speudo.length);
 
 	}
 
